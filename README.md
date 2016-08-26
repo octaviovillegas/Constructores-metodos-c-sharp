@@ -65,7 +65,7 @@ Ejercitación
 <h6> <strong>E. </strong> Enumerados e instancias únicas en atributos estáticos.</h6>
 
 <ol>
-		<li>Crear el enumerado eFabricante (Ford, Chevrolet y honda).</li>
+		<li>Crear el enumerado <strong>eFabricante</strong> (Ford, Chevrolet y honda).</li>
 		<li>Verificar en el MAIN como se crear una variable de tipo eFabricante.</li>
 		<li>Verificar en el MAIN como se castea una variable de tipo eFabricante.</li>
 		<li>Cambiar el tipo de datos del atributo fabricante de la clase auto, de string a eFabricante.</li>
@@ -80,8 +80,8 @@ Ejercitación
 <h6> <strong>F. </strong> Atributos públicos y privados.</h6>
 
 <ol>
-	<li>En la clase Auto creamos el atributo privado “kilometrosRecorridos”.</li>
-	<li>El atributo fabricante debe ser PRIVADO</li>
+	<li>En la clase <strong>AUTO</strong> creamos el atributo privado “kilometrosRecorridos”.</li>
+	<li>El atributo fabricante  de la clase <strong>AUTO</strong> debe ser PRIVADO</li>
 	<li>Creamos los métodos que me permitan interactuar con el atributo por fuera de la clase:
 	<ul>
 		<li>public void AgregarKilometros (int kilometros).</li>
@@ -90,13 +90,32 @@ Ejercitación
 	</ul>
 	</li>
 	<li>Hacer el método: public void MostrarAuto () que muestre el fabricante del vehículo.</li>
-	<li>Hacer la clase CARRERA, crear el método public void MostrarCarrera (), que muestre los datos de los autos de la carrera</li>
+	<li>Hacer la clase <strong>CARRERA</strong> con 6 atributotos de clase <strong>AUTO</strong>, crear el método public void MostrarCarrera (), que muestre los datos de los autos de la carrera</li>
 </ol>
 
 
 
-1.	Ejercicio: hacer el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrara por pantalla quien es el ganador con los kilómetros que recorrió.
+	1.	Ejercicio: hacer en la clase<strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
 
+
+
+<h5>Objetivo: poder definir y reutilizar constructores, llamada a constructores ya existentes.</h5>
+-------------------------------------------------------------------------------------
+<h6> <strong>g. </strong> Primeras sobrecargas de constructores.</h6>
+
+<ol>
+
+	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un string “marca”.</li>
+	<li>Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las dos formar de usarlo.</li>
+	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un int “tamaño”.</li>
+	<li>Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las tres formar de usarlo.</li>
+	<li>Agregarles los comentarios  a cada constructor con la tarea que realiza.</li>
+	'''html
+	/// <summary>
+/// Constructor por defecto que inicializa el atributo marca con 'sin marca'		
+/// </summary>
+'''
+</ol>
 
 Objetivo: poder definir y reutilizar constructores, llamada a constructores ya existentes.
 G	...Primeras sobrecargas de constructores
@@ -105,9 +124,7 @@ ii.	Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las dos f
 iii.	En rueda creamos un nuevo constructor que reciba por parámetro un int “tamaño”.
 iv.	Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las tres formar de usarlo.
 v.	Agregarles los comentarios  a cada constructor con la tarea que realiza.
-/// <summary>
-/// Constructor por defecto que inicializa el atributo marca con 'sin marca'		
-/// </summary>
+
 H...Reutilización de código de constructores
 i.	En rueda creamos un nuevo constructor que reciba por parámetro un string “marca” y un int tamaño.
 ii.	Verificar que tanto en la sobrecarga que recibe un string y en la que recibe dos parámetros, el atributo marca es inicializado, pero en la que solo recibe int, el atributo marca está en NULL.
