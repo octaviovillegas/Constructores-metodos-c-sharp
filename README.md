@@ -120,22 +120,39 @@ Clase 4
  /// &lt;/summary&gt;
 </pre></code>
 
-H...Reutilización de código de constructores
-i.	En rueda creamos un nuevo constructor que reciba por parámetro un string “marca” y un int tamaño.
-ii.	Verificar que tanto en la sobrecarga que recibe un string y en la que recibe dos parámetros, el atributo marca es inicializado, pero en la que solo recibe int, el atributo marca está en NULL.
-iii.	Utilizar el this para llamar desde el constructor que recibe un int al constructor por defecto para inicializar el atributo marca en “sin marca”.
-iv.	Crear un constructor que reciba un INT tamaño y un String marca, que no tenga código en su implementación y que utilice el THIS para llamar al constructor antes realizado.
-1.	Ejercicio: hacer las sobrecargas de los constructores de AUTO para que todas pasen por el constructor por defecto para que aumente el contador de objetos.
- 
+<h6> <strong>H. </strong> Reutilización de código de constructores.</h6>
 
-Objetivo: poder sobrecargar métodos.
-I.	... Sobrecarga de métodos
-i.	Crear la clase “tiempo” y la clase “kilómetro”, cada una con un único atributo de tipo INT llamado “cantidad”.
-ii.	Cada uno  debe tener un único constructor que reciba por parámetro la cantidad.
-iii.	Ahora en la clase carrera crear el método “CorrerCarrera” con dos sobrecargas, una que reciba kilómetros y una que reciba tiempo.
-iv.	Agregamos a la clase auto el atributo privado “tiempoDemorado” donde acumularemos el tiempo demorado en recorrer los kilómetros.
-v.	Agregamos al método “VolverACero”  las líneas para volver a cero  el “tiempoDemorado”.
-vi.	Creamos el método “AgregarKilometros” que agrega el int que recibe por parámetros al tiempo demorado.
-1.	Ejercicio: realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor
+<ol>
+
+	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un string “marca” y un int tamaño.</li>
+	<li>Verificar que tanto en la sobrecarga que recibe un string y en la que recibe dos parámetros, el atributo marca es inicializado, pero en la que solo recibe int, el atributo marca está en NULL.</li>
+	<li>Utilizar el this para llamar desde el constructor que recibe un int al constructor por defecto para inicializar el atributo marca en “sin marca”.</li>
+	<li>Crear un constructor que reciba un INT tamaño y un String marca, que no tenga código en su implementación y que utilice el THIS para llamar al constructor antes realizado.</li>
+	<li>Agregarles los comentarios  a cada constructor con la tarea que realiza.</li>
+</ol>
+
+<h3>*Ejercicio para los alumnos:*</h3>
+ hacer las sobrecargas de los constructores de <strong>AUTO</strong> para que todas pasen por el constructor por defecto para que aumente el contador de objetos.
+
+
+
+
+<h5>Objetivo: Poder sobrecargar métodos.</h5>
+-------------------------------------------------------------------------------------
+<h6> <strong>I. </strong> Sobrecarga de métodos.</h6>
+
+<ol>
+
+	<li>Crear la clase<strong>TIEMPO</strong> y la clase <strong>KILOMETRO</strong>, cada una con un único atributo de tipo INT llamado “cantidad”.</li>
+	<li>Cada uno  debe tener un único constructor que reciba por parámetro la cantidad.</li>
+	<li>Ahora en la clase carrera crear el método “CorrerCarrera” con dos sobrecargas, una que reciba kilómetros y una que reciba tiempo.</li>
+	<li>Agregamos a la clase auto el atributo privado “tiempoDemorado” donde acumularemos el tiempo demorado en recorrer los kilómetros.</li>
+	<li>Agregamos al método “VolverACero”  las líneas para volver a cero  el “tiempoDemorado”.</li>
+	<li>Creamos el método “AgregarTiempo” que agrega el int que recibe por parámetros al tiempo demorado.</li>
+</ol>
+
+
+<h3>*Ejercicio para los alumnos:*</h3>
+Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor
 
 		
