@@ -1,8 +1,14 @@
 POO: Métodos constructores y sobrecargas
 ========================================
+Prof. Octavio villegas  http://www.octavio.com.ar.
 
-Constructores, métodos C-Sharp, Enumerados, This, accesores de visibilidad
-Prof. Octavio Villegas
+**Qué vas a aprender:**
+  - [Constructores](#Contructores)
+  - [Métodos](#Métodos)
+  - [Enumerados](#Enumerados)
+  - [Accesores de Visibilidad](#AccesoresDeVisibilidad)
+ 
+
 Esta ejercitación está dividida en clases y cada clase tienen objetivos intermedios.
 Nota: (la clase 1 y la clase 2) son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).
 Clase 3
