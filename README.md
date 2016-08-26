@@ -9,17 +9,20 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
   - [Accesores de Visibilidad](#AccesoresDeVisibilidad)
  
 
-Esta ejercitación está dividida en clases y cada clase tienen objetivos intermedios.
+los conceptos son concatenados y toda la practica está dividida en clases y cada clase tienen objetivos intermedios.
 
 ####Nota:*la clase 1 y la clase 2, son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).*
 Clase 3
 -------
 Ejercitación
 
-Objetivo: comprender el funcionamiento de un constructor por defecto y this.
-A	...inicialización del objeto
-i.	Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.
-ii.	Crear un objeto en el MAIN , inspeccionar los atributos y verificar que el string está en null y el tamaño en 0.
+<h5>Objetivo: comprender el funcionamiento de un constructor por defecto y this.</h5>
+<h6> <strong>A.</strong>inicialización del objeto</h6>
+<ul>
+
+    	<li>i.Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
+	<li>ii.	Crear un objeto en el MAIN , inspeccionar los atributos y verificar que el string está en null y el tamaño en 0.</li>
+</ul>
 B...Modificación de valores por defecto
 i.	Crear un constructor por defecto sin código en su implementación.
 ii.	Verificar ejecutando paso a paso que ingresa al constructor.
