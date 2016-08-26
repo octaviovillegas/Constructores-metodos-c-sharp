@@ -95,13 +95,15 @@ Ejercitación
 
 
 
-	1.	Ejercicio: hacer en la clase<strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
+<h3>*Ejercicio para los alumnos:*</h3>
+hacer en la clase<strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
 
+Clase 4
+-------
 
-
-<h5>Objetivo: poder definir y reutilizar constructores, llamada a constructores ya existentes.</h5>
+<h5>Objetivo: Poder definir y reutilizar constructores, llamada a constructores ya existentes.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>g. </strong> Primeras sobrecargas de constructores.</h6>
+<h6> <strong>G. </strong> Primeras sobrecargas de constructores.</h6>
 
 <ol>
 
@@ -110,20 +112,13 @@ Ejercitación
 	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un int “tamaño”.</li>
 	<li>Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las tres formar de usarlo.</li>
 	<li>Agregarles los comentarios  a cada constructor con la tarea que realiza.</li>
-	'''html
-	/// <summary>
-/// Constructor por defecto que inicializa el atributo marca con 'sin marca'		
-/// </summary>
-'''
 </ol>
 
-Objetivo: poder definir y reutilizar constructores, llamada a constructores ya existentes.
-G	...Primeras sobrecargas de constructores
-i.	En rueda creamos un nuevo constructor que reciba por parámetro un string “marca”.
-ii.	Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las dos formar de usarlo.
-iii.	En rueda creamos un nuevo constructor que reciba por parámetro un int “tamaño”.
-iv.	Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las tres formar de usarlo.
-v.	Agregarles los comentarios  a cada constructor con la tarea que realiza.
+<pre><code>
+ ///&lt;summary&gt;
+ /// Constructor por defecto que inicializa el atributo marca con 'sin marca'		
+ /// &lt;/summary&gt;
+</pre></code>
 
 H...Reutilización de código de constructores
 i.	En rueda creamos un nuevo constructor que reciba por parámetro un string “marca” y un int tamaño.
