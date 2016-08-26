@@ -9,34 +9,60 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
   - [Accesores de Visibilidad](#AccesoresDeVisibilidad)
  
 
-los conceptos son concatenados y toda la practica está dividida en clases y cada clase tienen objetivos intermedios.
+los conceptos explicados son concatenados entre sí, toda la práctica  está dividida en clases y cada clase tienen objetivos intermedios que cumplir.
 
 ####Nota:*la clase 1 y la clase 2, son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).*
 Clase 3
 -------
 Ejercitación
 
-<h5>Objetivo: comprender el funcionamiento de un constructor por defecto y this.</h5>
-<h6> <strong>A.</strong>inicialización del objeto</h6>
-<ul>
+<h5>Objetivo: comprender el funcionamiento de un constructor por defecto, this, relacion de composición.</h5>
+<h6> <strong>A.</strong> inicialización del objeto</h6>
+<ol>
 
-    	<li>i.Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
-	<li>ii.	Crear un objeto en el MAIN , inspeccionar los atributos y verificar que el string está en null y el tamaño en 0.</li>
-</ul>
-B...Modificación de valores por defecto
-i.	Crear un constructor por defecto sin código en su implementación.
-ii.	Verificar ejecutando paso a paso que ingresa al constructor.
-iii.	Modificar el atributo “This. Marca”  dentro del constructor por defecto con el texto “Sin Marca”.
-iv.	Verificar ejecutando paso a paso que ingresa al constructor y que modifica el atributo.
-V.	Crear 3 objetos RUEDA y ejecutar pasó a paso verificando el ingreso al constructor por defecto.
-C...Relación de composición de clases
-i.	Creamos la clase Auto, que posea un atributo string  fabricante y cuatro Ruedas con los siguientes nombres (ruedaDD, ruedaDI, ruedaTD, ruedaTI).
-ii.	Crear el constructor por defecto y verificar que cada objeto rueda es inicializado en NULL.
-iii.	Inicializar los objetos rueda en el constructor por defecto.
-iv.	Verificar que cada objeto no esté en NULL.
+    	<li>Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
+	<li>Crear un objeto en el MAIN , inspeccionar los atributos y verificar que el string está en null y el tamaño en 0.</li>
+</ol>
 
-Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.
+<h6> <strong>B.</strong> Modificación de valores por defecto.</h6>
+<ol>
+
+    	<li>Crear un constructor por defecto sin código en su implementación.</li>
+	<li>Verificar ejecutando paso a paso que ingresa al constructor.</li>
+	<li>Modificar el atributo “This. Marca”  dentro del constructor por defecto con el texto “Sin Marca”.</li>
+	<li>Verificar ejecutando paso a paso que ingresa al constructor y que modifica el atributo.</li>
+	<li>Crear 3 objetos RUEDA y ejecutar pasó a paso verificando el ingreso al constructor por defecto.</li>
+
+</ol>
+<h6> <strong>C.</strong> Relación de composición de clases.</h6>
+
+<ol>
+		<li>	Creamos la clase Auto, que posea un atributo string  fabricante y cuatro Ruedas con los siguientes nombres (ruedaDD, ruedaDI, ruedaTD, ruedaTI).</li>
+		<li>Crear el constructor por defecto y verificar que cada objeto rueda es inicializado en NULL.</li>
+		<li>Inicializar los objetos rueda en el constructor por defecto.</li>
+		<li>Verificar que cada objeto no esté en NULL.</li>
+</ol>
+
+
+<h5>Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.</h5>
+<h6> <strong>D.</strong>Constructor Estático.</h6>
+
+	<ol>
+		<li>Crear un constructor de clase  en AUTO.</li>
+		<li>Verificar que:
+		<ul>
+		<li>No puede tener modificar de visibilidad</li>
+		<li>No se puede utilizar el THIS.</li>
+		<li>Verificar, poniendo punto de quiebre, que es lo primero que se ejecuta, antes de utilizar cualquier miembro de instancia o de clase.</li>
+		
+		</ul>
+		
+		</li>
+		<li>Crear un atributo estático llamado contador de objetos.</li>
+		<li>En el constructor por defecto inicializarlo en 0.</li>
+	</ol>
 D.	Constructor Estático
+
 i.	Crear un constructor de clase  en AUTO.
 ii.	Verificar que: 
 1.	No puede tener modificar de visibilidad
