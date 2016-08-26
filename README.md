@@ -18,7 +18,7 @@ Ejercitación
 
 <h5>Objetivo: comprender el funcionamiento de un constructor por defecto, this, relacion de composición.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>A.</strong> inicialización del objeto</h6>
+<h6> <strong>A. </strong> inicialización del objeto</h6>
 <ol>
 
     	<li>Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
@@ -35,7 +35,7 @@ Ejercitación
 	<li>Crear 3 objetos RUEDA y ejecutar pasó a paso verificando el ingreso al constructor por defecto.</li>
 
 </ol>
-<h6> <strong>C.</strong> Relación de composición de clases.</h6>
+<h6> <strong>C. </strong> Relación de composición de clases.</h6>
 
 <ol>
 		<li>	Creamos la clase Auto, que posea un atributo string  fabricante y cuatro Ruedas con los siguientes nombres (ruedaDD, ruedaDI, ruedaTD, ruedaTI).</li>
@@ -47,49 +47,54 @@ Ejercitación
 
 <h5>Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>D.</strong>Constructor Estático.</h6>
+<h6> <strong>D. </strong>Constructor Estático.</h6>
 <ol>
-		<li>Crear un constructor de clase  en AUTO.</li>
-		<li>Verificar que:
-		<ul>
-		<li>No puede tener modificar de visibilidad</li>
+	<li>Crear un constructor de clase  en AUTO.</li>
+	<li>Verificar que:
+	<ul>
+		<li>No puede tener modificador de visibilidad</li>
 		<li>No se puede utilizar el THIS.</li>
 		<li>Verificar, poniendo punto de quiebre, que es lo primero que se ejecuta, antes de utilizar cualquier miembro de instancia o de clase.</li>
-		
-		</ul>
-		
-		</li>
-		<li>Crear un atributo estático llamado contador de objetos.</li>
-		<li>En el constructor por defecto inicializarlo en 0.</li>
+	</ul>
+	</li>
+	<li>Crear un atributo estático llamado contador de objetos.</li>
+	<li>En el constructor por defecto inicializarlo en 0.</li>
 </ol>
 <h5>Objetivo: definición, casteo y utilización de enumerados.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>E.</strong> Enumerados e instancias únicas en atributos estáticos.</h6>
+<h6> <strong>E. </strong> Enumerados e instancias únicas en atributos estáticos.</h6>
 
 <ol>
 		<li>Crear el enumerado eFabricante (Ford, Chevrolet y honda).</li>
 		<li>Verificar en el MAIN como se crear una variable de tipo eFabricante.</li>
 		<li>Verificar en el MAIN como se castea una variable de tipo eFabricante.</li>
 		<li>Cambiar el tipo de datos del atributo fabricante de la clase auto, de string a eFabricante.</li>
-		
 		<li>En el constructor  por defecto inicializar el valor del atributo fabricante.</li>
 		<li>Hacer que el fabricante se genere Random entre las tres opciones existentes.</li>
 		<li>Crear 5  objetos autos y verificar que se carguen los fabricantes de manera Random.</li>
 		<li>Crear un atributo estático de tipo Random.</li>
-		<li>Iniciarlizar en objeto Random en el constructor <strong>estático.</strong></li>
+		<li>Iniciarlizar en objeto Random en el <strong>constructor estático.</strong></li>
+</ol>
+<h5>Objetivo: utilización de atributos públicos y privados.</h5>
+-------------------------------------------------------------------------------------
+<h6> <strong>F. </strong> Atributos públicos y privados.</h6>
+
+<ol>
+	<li>En la clase Auto creamos el atributo privado “kilometrosRecorridos”.</li>
+	<li>El atributo fabricante debe ser PRIVADO</li>
+	<li>Creamos los métodos que me permitan interactuar con el atributo por fuera de la clase:
+	<ul>
+		<li>public void AgregarKilometros (int kilometros).</li>
+		<li>public void VolverACero ().</li>
+		<li>public int GetKms ().</li>
+	</ul>
+	</li>
+	<li>Hacer el método: public void MostrarAuto () que muestre el fabricante del vehículo.</li>
+	<li>Hacer la clase CARRERA, crear el método public void MostrarCarrera (), que muestre los datos de los autos de la carrera</li>
 </ol>
 
 
-Objetivo: utilización de atributos públicos y privados.
-F.	...Atributos públicos y privados
-i.	En la clase Auto creamos el atributo privado “kilometrosRecorridos”.
-ii.	El atributo fabricante debe ser PRIVADO
-iii.	Creamos los métodos que me permitan interactuar con el atributo por fuera de la clase:
-1.	public void AgregarKilometros (int kilometros).
-2.	public void VolverACero ().
-3.	public int GetKms ().
-iv.	Hacer el método: public void MostrarAuto () que muestre el fabricante del vehículo.
-v.	Hacer  la clase CARRERA crear el método public void MostrarCarrera (), que muestre los datos de los autos de la carrera
+
 1.	Ejercicio: hacer el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrara por pantalla quien es el ganador con los kilómetros que recorrió.
 
 
