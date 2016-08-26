@@ -17,6 +17,7 @@ Clase 3
 Ejercitación
 
 <h5>Objetivo: comprender el funcionamiento de un constructor por defecto, this, relacion de composición.</h5>
+-------------------------------------------------------------------------------------
 <h6> <strong>A.</strong> inicialización del objeto</h6>
 <ol>
 
@@ -45,9 +46,9 @@ Ejercitación
 
 
 <h5>Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.</h5>
+-------------------------------------------------------------------------------------
 <h6> <strong>D.</strong>Constructor Estático.</h6>
-
-	<ol>
+<ol>
 		<li>Crear un constructor de clase  en AUTO.</li>
 		<li>Verificar que:
 		<ul>
@@ -60,29 +61,23 @@ Ejercitación
 		</li>
 		<li>Crear un atributo estático llamado contador de objetos.</li>
 		<li>En el constructor por defecto inicializarlo en 0.</li>
-	</ol>
-D.	Constructor Estático
+</ol>
+<h5>Objetivo: definición, casteo y utilización de enumerados.</h5>
+-------------------------------------------------------------------------------------
+<h6> <strong>E.</strong> Enumerados e instancias únicas en atributos estáticos.</h6>
 
-i.	Crear un constructor de clase  en AUTO.
-ii.	Verificar que: 
-1.	No puede tener modificar de visibilidad
-2.	No se puede utilizar el THIS.
-3.	Verificar, poniendo punto de quiebre, que es lo primero que se ejecuta, antes de utilizar cualquier miembro de instancia o de clase.
-iii.	Crear un atributo estático llamado contador de objetos.
-iv.	En el constructor por defecto inicializarlo en 0.
-Objetivo: definición, casteo y utilización de enumerados.
-E	...enumerados e instancias únicas en atributos estáticos
-i.	Crear el enumerado eFabricante (Ford, Chevrolet y honda).
-ii.	Verificar en el MAIN como se crear una variable de tipo eFabricante.
-iii.	Verificar en el MAIN como se castea una variable de tipo eFabricante.
-iv.	Cambiar el tipo de datos del atributo fabricante de la clase auto, de string a eFabricante.
-v.	En el constructor  por defecto inicializar el valor del atributo fabricante.
-vi.	Hacer que el fabricante se genere Random entre las tres opciones existentes.
-vii.	Crear 5  objetos autos y verificar que se carguen los fabricantes de manera Random 
-viii.	Crear un atributo estático de tipo Random.
-ix.	Iniciar en objeto Random en el constructor estático.
-x.	Verificar que las marcas estén ingresadas de manera Random.
- 
+<ol>
+		<li>Crear el enumerado eFabricante (Ford, Chevrolet y honda).</li>
+		<li>Verificar en el MAIN como se crear una variable de tipo eFabricante.</li>
+		<li>Verificar en el MAIN como se castea una variable de tipo eFabricante.</li>
+		<li>Cambiar el tipo de datos del atributo fabricante de la clase auto, de string a eFabricante.</li>
+		
+		<li>En el constructor  por defecto inicializar el valor del atributo fabricante.</li>
+		<li>Hacer que el fabricante se genere Random entre las tres opciones existentes.</li>
+		<li>Crear 5  objetos autos y verificar que se carguen los fabricantes de manera Random.</li>
+		<li>Crear un atributo estático de tipo Random.</li>
+		<li>Iniciarlizar en objeto Random en el constructor <strong>estático.</strong></li>
+</ol>
 
 
 Objetivo: utilización de atributos públicos y privados.
