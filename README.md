@@ -10,7 +10,8 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
  
 
 Esta ejercitación está dividida en clases y cada clase tienen objetivos intermedios.
-Nota: (la clase 1 y la clase 2) son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).
+
+####Nota:*la clase 1 y la clase 2, son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).*
 Clase 3
 -------
 Ejercitación
