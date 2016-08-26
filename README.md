@@ -1,9 +1,12 @@
 POO: Métodos constructores y sobrecargas
+========================================
+
 Constructores, métodos C-Sharp, Enumerados, This, accesores de visibilidad
 Prof. Octavio Villegas
 Esta ejercitación está dividida en clases y cada clase tienen objetivos intermedios.
 Nota: (la clase 1 y la clase 2) son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).
 Clase 3
+-------
 Ejercitación
 
 Objetivo: comprender el funcionamiento de un constructor por defecto y this.
