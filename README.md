@@ -12,11 +12,13 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
   - [Constructores - Constructor Estático.](#ConstructorEstatico)
   - [Enumerados e instancias únicas en atributos estáticos.](#enumerados)
   - [Atributos públicos y privados.](#visibilidad)
- 
+ 	-[Ejercitación](#Ejer1)
 <h4>Clase 4</h4>
  - [Primeras sobrecargas de constructores.](#PrimerasSobrecargas)
  - [ Reutilización de código de constructores  utilización del ":THIS()".](#rellamadasTHIS)
+	-[Ejercitación](#Ejer2)
  - [Sobrecarga de métodos.](#SobreCargaMetodos)
+ - 	-[Ejercitación](#Ejer3)
 
 
 los conceptos explicados son concatenados entre sí, toda la práctica  está dividida en clases y cada clase tienen objetivos intermedios que cumplir.
@@ -24,7 +26,7 @@ los conceptos explicados son concatenados entre sí, toda la práctica  está di
 ####Nota:*la clase 1 y la clase 2, son la introducción a la IDE y el paralelismo entre la sintaxis del lenguaje “C” con C# (C-Sharp).*
 Clase 3
 -------
-Ejercitación
+
 
 -------------------------------------------------------------------------------------
 <h5>Objetivo: comprender el funcionamiento de un constructor por defecto, this, relacion de composición.</h5>
@@ -89,6 +91,7 @@ Ejercitación
 		<li>Crear un atributo estático de tipo Random.</li>
 		<li>Iniciarlizar en objeto Random en el <strong>constructor estático.</strong></li>
 </ol>
+-------------------------------------------------------------------------------------
 <h5>Objetivo: utilización de atributos públicos y privados.</h5>
 -------------------------------------------------------------------------------------
 <h6 id="visibilidad"> <strong>F. </strong> Atributos públicos y privados.</h6>
@@ -109,12 +112,13 @@ Ejercitación
 
 
 
-<h3>*Ejercicio para los alumnos:*</h3>
+<h3 id="ejer1">*Ejercicio para los alumnos:*</h3>
 hacer en la clase <strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
 
 Clase 4
 -------
 
+-------------------------------------------------------------------------------------
 <h5>Objetivo: Poder definir y reutilizar constructores, llamada a constructores ya existentes.</h5>
 -------------------------------------------------------------------------------------
 <h6 id="PrimerasSobrecargas"> <strong>G. </strong> Primeras sobrecargas de constructores.</h6>
@@ -145,12 +149,12 @@ Clase 4
 	<li>Agregarles los comentarios  a cada constructor con la tarea que realiza.</li>
 </ol>
 
-<h3>*Ejercicio para los alumnos:*</h3>
- hacer las sobrecargas de los constructores de <strong>AUTO</strong> para que todas pasen por el constructor por defecto para que aumente el contador estático  de objetos.
+<h3 id="ejer2">*Ejercicio para los alumnos:*</h3>
+ hacer las sobrecargas de los constructores de <strong>AUTO</strong> para que todas pasen por el constructor por defecto para que aumente el contador estático  de objetos,no repetir lineas de código.
 
 
 
-
+-------------------------------------------------------------------------------------
 <h5>Objetivo: Poder sobrecargar métodos.</h5>
 -------------------------------------------------------------------------------------
 <h6 id="SobreCargaMetodos"> <strong>I. </strong> Sobrecarga de métodos.</h6>
@@ -166,7 +170,7 @@ Clase 4
 </ol>
 
 
-<h3>*Ejercicio para los alumnos:*</h3>
+<h3 id="ejer3">*Ejercicio para los alumnos:*</h3>
 Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor, mostrando en uno el tiempo utilizado y en la otra los kilometros recorridos.
 
 + El “CorrerCarrera” que recibe <strong>TIEMPO</strong>, realiza tantas iteraciones como cantidad de tiempo recibe por parámetros, en cada iteración todos los autos de esta carrera le suman un numero random de kilometros(entre 10 y 100) a sus kilometros recorridos.
