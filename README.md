@@ -4,7 +4,7 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
 
 **Qué vas a aprender:**
   - [Constructores](#Contructores)
-  - [Constructor Estático.](#Constructor-Estático.)
+  - [Constructor Estático.](#ConstructorEstatico)
   - [Enumerados](#Enumerados)
   - [Accesores de Visibilidad](#AccesoresDeVisibilidad)
  
@@ -47,7 +47,7 @@ Ejercitación
 
 <h5>Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>D. </strong>###Constructor Estático.</h6>
+<h6 id="ConstructorEstatico"> <strong>D. </strong>Constructor Estático.</h6>
 <ol>
 	<li>Crear un constructor de clase  en AUTO.</li>
 	<li>Verificar que:
