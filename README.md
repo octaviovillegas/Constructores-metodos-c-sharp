@@ -3,11 +3,21 @@ POO: Métodos constructores y sobrecargas
 Prof. Octavio villegas  http://www.octavio.com.ar.
 
 **Qué vas a aprender:**
-  - [Constructores](#Contructores)
-  - [Constructor Estático.](#ConstructorEstatico)
-  - [Enumerados](#Enumerados)
-  - [Accesores de Visibilidad](#AccesoresDeVisibilidad)
+
+<h4>Clase 3</h4>
+
+  - [Constructores - inicialización del objeto](#inicializacionDelObjeto)
+  - [Constructores - Modificación de valores por defecto utilización del "THIS.".](#valoresPorDefecto)
+  - [Relación de composición entre clases.](#RelacionDeComposicion)
+  - [Constructores - Constructor Estático.](#ConstructorEstatico)
+  - [Enumerados e instancias únicas en atributos estáticos.](#enumerados)
+  - [Atributos públicos y privados.](#visibilidad)
  
+ <h4>Clase 4</h4>
+ - [Primeras sobrecargas de constructores.](#PrimerasSobrecargas)
+ - [ Reutilización de código de constructores  utilización del ":THIS()".](#rellamadasTHIS)
+ - [Sobrecarga de métodos.](#SobreCargaMetodos)
+Primeras sobrecargas de constructores.
 
 los conceptos explicados son concatenados entre sí, toda la práctica  está dividida en clases y cada clase tienen objetivos intermedios que cumplir.
 
@@ -16,16 +26,17 @@ Clase 3
 -------
 Ejercitación
 
+-------------------------------------------------------------------------------------
 <h5>Objetivo: comprender el funcionamiento de un constructor por defecto, this, relacion de composición.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>A. </strong> inicialización del objeto</h6>
+<h6 id="inicializacionDelObjeto"> <strong>A. </strong> inicialización del objeto</h6>
 <ol>
 
     	<li>Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
 	<li>Crear un objeto en el MAIN , inspeccionar los atributos y verificar que el string está en null y el tamaño en 0.</li>
 </ol>
 
-<h6> <strong>B.</strong> Modificación de valores por defecto.</h6>
+<h6 id="valoresPorDefecto"> <strong>B.</strong> Modificación de valores por defecto.</h6>
 <ol>
 
     	<li>Crear un constructor por defecto sin código en su implementación.</li>
@@ -35,7 +46,7 @@ Ejercitación
 	<li>Crear 3 objetos RUEDA y ejecutar pasó a paso verificando el ingreso al constructor por defecto.</li>
 
 </ol>
-<h6> <strong>C. </strong> Relación de composición de clases.</h6>
+<h6 id="RelacionDeComposicion"> <strong>C. </strong> Relación de composición de clases.</h6>
 
 <ol>
 		<li>	Creamos la clase Auto, que posea un atributo string  fabricante y cuatro Ruedas con los siguientes nombres (ruedaDD, ruedaDI, ruedaTD, ruedaTI).</li>
@@ -44,7 +55,7 @@ Ejercitación
 		<li>Verificar que cada objeto no esté en NULL.</li>
 </ol>
 
-
+-------------------------------------------------------------------------------------
 <h5>Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.</h5>
 -------------------------------------------------------------------------------------
 <h6 id="ConstructorEstatico"> <strong>D. </strong>Constructor Estático.</h6>
@@ -58,11 +69,14 @@ Ejercitación
 	</ul>
 	</li>
 	<li>Crear un atributo estático llamado contador de objetos.</li>
-	<li>En el constructor por defecto inicializarlo en 0.</li>
+	<li>En el constructor estático inicializarlo en 0.</li>
+	<li>En el constructor de instancia incrementar en uno el contador estático.</li>
 </ol>
+
+-------------------------------------------------------------------------------------
 <h5>Objetivo: definición, casteo y utilización de enumerados.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>E. </strong> Enumerados e instancias únicas en atributos estáticos.</h6>
+<h6 id="enumerados"> <strong>E. </strong> Enumerados e instancias únicas en atributos estáticos.</h6>
 
 <ol>
 		<li>Crear el enumerado <strong>eFabricante</strong> (Ford, Chevrolet y honda).</li>
@@ -77,7 +91,7 @@ Ejercitación
 </ol>
 <h5>Objetivo: utilización de atributos públicos y privados.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>F. </strong> Atributos públicos y privados.</h6>
+<h6 id="visibilidad"> <strong>F. </strong> Atributos públicos y privados.</h6>
 
 <ol>
 	<li>En la clase <strong>AUTO</strong> creamos el atributo privado “kilometrosRecorridos”.</li>
@@ -103,7 +117,7 @@ Clase 4
 
 <h5>Objetivo: Poder definir y reutilizar constructores, llamada a constructores ya existentes.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>G. </strong> Primeras sobrecargas de constructores.</h6>
+<h6 id="PrimerasSobrecargas"> <strong>G. </strong> Primeras sobrecargas de constructores.</h6>
 
 <ol>
 
@@ -120,7 +134,7 @@ Clase 4
  /// &lt;/summary&gt;
 </pre></code>
 
-<h6> <strong>H. </strong> Reutilización de código de constructores.</h6>
+<h6 id:"rellamadasTHIS"> <strong>H. </strong> Reutilización de código de constructores ":THIS()".</h6>
 
 <ol>
 
@@ -139,7 +153,7 @@ Clase 4
 
 <h5>Objetivo: Poder sobrecargar métodos.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>I. </strong> Sobrecarga de métodos.</h6>
+<h6 id="SobreCargaMetodos"> <strong>I. </strong> Sobrecarga de métodos.</h6>
 
 <ol>
 
