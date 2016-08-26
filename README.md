@@ -17,7 +17,7 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
  - [Primeras sobrecargas de constructores.](#PrimerasSobrecargas)
  - [ Reutilización de código de constructores  utilización del ":THIS()".](#rellamadasTHIS)
  - [Sobrecarga de métodos.](#SobreCargaMetodos)
-Primeras sobrecargas de constructores.
+
 
 los conceptos explicados son concatenados entre sí, toda la práctica  está dividida en clases y cada clase tienen objetivos intermedios que cumplir.
 
@@ -168,9 +168,11 @@ Clase 4
 
 <h3>*Ejercicio para los alumnos:*</h3>
 Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor, mostrando en uno el tiempo utilizado y en la otra los kilometros recorridos.
-+El “CorrerCarrera” que recibe <strong>TIEMPO</strong>, realiza tantas iteraciones como cantidad de tiempo recibe por parámetros, en cada iteración todos los autos de esta carrera le suman un numero random de kilometros(entre 10 y 100) a sus kilometros recorridos.
+
++ El “CorrerCarrera” que recibe <strong>TIEMPO</strong>, realiza tantas iteraciones como cantidad de tiempo recibe por parámetros, en cada iteración todos los autos de esta carrera le suman un numero random de kilometros(entre 10 y 100) a sus kilometros recorridos.
 <strong>Gana el que  <em>mas</em> kilometros sumo al terminar de iterar.</strong>
-+El “CorrerCarrera” que recibe <strong>KILOMETRO</strong>, realiza tantas iteraciones como cantidad de kilometro recibe por parámetros, en cada iteración todos los autos de esta carrera le suman un numero random de tiempo(entre 10 y 100) a su tiempoDemorado 
+
++ El “CorrerCarrera” que recibe <strong>KILOMETRO</strong>, realiza tantas iteraciones como cantidad de kilometro recibe por parámetros, en cada iteración todos los autos de esta carrera le suman un numero random de tiempo(entre 10 y 100) a su tiempoDemorado 
 <strong>Gana el que <em>menos</em> tiempo sumo al terminar de iterar.</strong>
 
 		
