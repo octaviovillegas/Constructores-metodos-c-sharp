@@ -12,13 +12,14 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
   - [Constructores - Constructor Estático.](#ConstructorEstatico)
   - [Enumerados e instancias únicas en atributos estáticos.](#enumerados)
   - [Atributos públicos y privados.](#visibilidad)
- 	-[Ejercitación](#Ejer1)
+  [Ejercitación 1](#Ejer1)
+
 <h4>Clase 4</h4>
  - [Primeras sobrecargas de constructores.](#PrimerasSobrecargas)
- - [ Reutilización de código de constructores  utilización del ":THIS()".](#rellamadasTHIS)
-	-[Ejercitación](#Ejer2)
+ - [Reutilización de código de constructores  utilización del ":THIS()".](#rellamadasTHIS)
+ [Ejercitación 2](#Ejer2)
  - [Sobrecarga de métodos.](#SobreCargaMetodos)
- - 	-[Ejercitación](#Ejer3)
+ [Ejercitación 3](#Ejer3)
 
 
 los conceptos explicados son concatenados entre sí, toda la práctica  está dividida en clases y cada clase tienen objetivos intermedios que cumplir.
