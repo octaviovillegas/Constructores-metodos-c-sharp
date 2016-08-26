@@ -4,7 +4,7 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
 
 **Qué vas a aprender:**
   - [Constructores](#Contructores)
-  - [Métodos](#Métodos)
+  - [Constructor Estático.](#Constructor-Estático.)
   - [Enumerados](#Enumerados)
   - [Accesores de Visibilidad](#AccesoresDeVisibilidad)
  
@@ -47,7 +47,7 @@ Ejercitación
 
 <h5>Objetivo: comprender la funcionalidad y la sintaxis de un constructor estático.</h5>
 -------------------------------------------------------------------------------------
-<h6> <strong>D. </strong>Constructor Estático.</h6>
+<h6> <strong>D. </strong>###Constructor Estático.</h6>
 <ol>
 	<li>Crear un constructor de clase  en AUTO.</li>
 	<li>Verificar que:
@@ -96,7 +96,7 @@ Ejercitación
 
 
 <h3>*Ejercicio para los alumnos:*</h3>
-hacer en la clase<strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
+hacer en la clase <strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
 
 Clase 4
 -------
@@ -132,7 +132,7 @@ Clase 4
 </ol>
 
 <h3>*Ejercicio para los alumnos:*</h3>
- hacer las sobrecargas de los constructores de <strong>AUTO</strong> para que todas pasen por el constructor por defecto para que aumente el contador de objetos.
+ hacer las sobrecargas de los constructores de <strong>AUTO</strong> para que todas pasen por el constructor por defecto para que aumente el contador estático  de objetos.
 
 
 
@@ -143,7 +143,7 @@ Clase 4
 
 <ol>
 
-	<li>Crear la clase<strong>TIEMPO</strong> y la clase <strong>KILOMETRO</strong>, cada una con un único atributo de tipo INT llamado “cantidad”.</li>
+	<li>Crear la clase <strong>TIEMPO</strong> y la clase <strong>KILOMETRO</strong>, cada una con un único atributo de tipo INT llamado “cantidad”.</li>
 	<li>Cada uno  debe tener un único constructor que reciba por parámetro la cantidad.</li>
 	<li>Ahora en la clase carrera crear el método “CorrerCarrera” con dos sobrecargas, una que reciba kilómetros y una que reciba tiempo.</li>
 	<li>Agregamos a la clase auto el atributo privado “tiempoDemorado” donde acumularemos el tiempo demorado en recorrer los kilómetros.</li>
@@ -153,6 +153,6 @@ Clase 4
 
 
 <h3>*Ejercicio para los alumnos:*</h3>
-Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor
+Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor, mostrando en uno el tiempo utilizado y en la otra los kilometros recorridos.
 
 		
