@@ -167,8 +167,8 @@ namespace VirtualRaceConsola
             if (this.auto6.ObtenerTiempo() > mayor.ObtenerTiempo())
                 mayor = auto6;
 
-            Console.WriteLine("El que mÃ¡s tardÃ³ fue un {0} y el tiempo fue {1}", mayor.Fabricante, mayor.ObtenerTiempo());
-            Console.WriteLine("El que menos tardÃ³ fue un {0} y el tiempo fue {1}", menor.Fabricante, menor.ObtenerTiempo());
+            Console.WriteLine("El que más tarde fue un {0} y el tiempo fue {1}", mayor.Fabricante, mayor.ObtenerTiempo());
+            Console.WriteLine("El que menos tarde fue un {0} y el tiempo fue {1}", menor.Fabricante, menor.ObtenerTiempo());
             
             this.auto1.VolverACero();
             this.auto2.VolverACero();
