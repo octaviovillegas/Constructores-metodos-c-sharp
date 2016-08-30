@@ -234,3 +234,5 @@ Clase 5
 <h3 id="Ejer5">*Ejercicio para los alumnos #5:*</h3>
 
 + Realizar todos los cambios necesarios para que funcione la aplicación con la utilizacón de los operadores sobrecargados.
++ Hacer una carrera por tiempo.
++ Hacer una carrera por kilometros
