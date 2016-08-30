@@ -20,6 +20,10 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
  - Ejercitación: [Ejercicio 2](#Ejer2)
  - [Sobrecarga de métodos.](#SobreCargaMetodos)
  - Ejercitación: [Ejercicio 3](#Ejer3)
+ - Ejercitación -repaso-: [Ejercicio 4](#Ejer4)
+ - [Sobrecarga de operadores.](#SobredeOperadores)
+ - Ejercitación: [Ejercicio 5](#Ejer5)
+
 
 
 los conceptos explicados son concatenados entre sí, toda la práctica  está dividida en clases y cada clase tienen objetivos intermedios que cumplir.
@@ -221,6 +225,11 @@ Clase 5
 			
 		</ul>
 	</li>
+	<li>Realizar todos los cambios necesarios para que funcione la aplicación con la utilizacón de los operadores sobrecargados</li>
+	
 </ol>
 
 
+<h3 id="Ejer5">*Ejercicio para los alumnos:*</h3>
+
++ Realizar todos los cambios necesarios para que funcione la aplicación con la utilizacón de los operadores sobrecargados.
