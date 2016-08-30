@@ -70,7 +70,7 @@ namespace VirtualRaceConsola
         }
         public static bool operator <(Kilometro kilometro1, Kilometro kilometro2)
         {
-            return (kilometro1._cantidad < kilometro2._cantidad);
+            return (kilometro1._cantidad<  kilometro2._cantidad);
         }
         public static bool operator >(Kilometro kilometro1, Kilometro kilometro2)
         {

@@ -181,3 +181,46 @@ Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” 
 <strong>Gana el que <em>menos</em> tiempo sumo al terminar de iterar.</strong>
 
 		
+
+Clase 5
+-------
+
+
+<h3 id="Ejer4">*Ejercicio para los alumnos:*</h3>
+
++ Realizar la implementación  de cada sobrecarga del método <stron>agregar(tiempo),agregar(kilometro)</strong> y agregar la cantidad correspondiente a cada atributo de la clase auto.
+
++ En la clase <strong>AUTO</strong>, cambiar los atributos  
+<strong>"tiempoDemorado"  <em>y </em> "kilometrosRecorridos"</strong> de tipo <strong>INT</strong>  a el tipo que correspoda : <strong>TIEMPO</strong> o <strong>KILOMETRO</strong>
+
++ Macar como <strong>DEPRECATED</strong>, a todos los métodos o implementaciones de codigo  que van quedado sin uso o son reemplazados por sobrecargas.<strong>junto con el motivo  de esta acción   </strong>
+
+-------------------------------------------------------------------------------------
+<h5>Objetivo: Comprender la utilidad de la sobrecarga de operadores.</h5>
+-------------------------------------------------------------------------------------
+<h6 id="SobrecargasDeOperadores"> <strong>H. </strong> Sobrecarga de Operadores.</h6>
+
+<ol>
+
+	<li>Hacer la sobrecarga de los operadores para la clase  <strong>KILOMETRO</strong> y <strong>TIEMPO</strong>
+		<ul>
+			<li>operator +</li>
+			<li>operator -</li>
+			<li>operator ==</li>
+			<p>Cada operador debe tener dos sobrecargas recibiendo dos objetos en una mientras que en la otra recibe un objeto y un entero
+		</ul>
+	</li>
+	<li>Hacer la sobrecarga de los operadores de casteo <em> implicit</em> y <em> explicit</em> para la clase  <strong>KILOMETRO</strong> y <strong>TIEMPO</strong></li>
+	<li>Ahora los constructores de <strong>KILOMETRO</strong> y <strong>TIEMPO</strong> serán privados  </li>
+	<li>Ahora los atributos de <strong>KILOMETRO</strong> y <strong>TIEMPO</strong> serán privados</li>
+	<li>
+	Hacer la sobrecarga de los operadores para la clase  <strong>KILOMETRO</strong> y <strong>TIEMPO</strong>
+		<ul>
+			<li>operator <</li>
+			<li>operator >/li>
+			
+		</ul>
+	</li>
+</ol>
+
+
