@@ -117,7 +117,7 @@ Clase 3
 
 
 
-<h3 id="Ejer1">*Ejercicio para los alumnos:*</h3>
+<h3 id="Ejer1">*Ejercicio para los alumnos #1:*</h3>
 hacer en la clase <strong>CARRERA </strong> el método “PorTiempo” que recibe como parámetro  “minutos”  representado por un entero y que la cantidad de minutos son las iteraciones que vamos a realizar (while o for), y en cada iteración le agregaremos una cantidad de kilómetros Random a cada auto participante de la  carrera. Por último el método mostrará por pantalla quien es el ganador con los kilómetros que recorrió.
 
 Clase 4
@@ -154,7 +154,7 @@ Clase 4
 	<li>Agregarles los comentarios  a cada constructor con la tarea que realiza.</li>
 </ol>
 
-<h3 id="Ejer2">*Ejercicio para los alumnos:*</h3>
+<h3 id="Ejer2">*Ejercicio para los alumnos #2:*</h3>
  hacer las sobrecargas de los constructores de <strong>AUTO</strong> para que todas pasen por el constructor por defecto para que aumente el contador estático  de objetos,no repetir lineas de código.
 
 
@@ -175,7 +175,7 @@ Clase 4
 </ol>
 
 
-<h3 id="Ejer3">*Ejercicio para los alumnos:*</h3>
+<h3 id="Ejer3">*Ejercicio para los alumnos #3:*</h3>
 Realizar la implementación  de cada sobrecarga del método “CorrerCarrera” e informar en cada caso quien es el ganador y el perdedor, mostrando en uno el tiempo utilizado y en la otra los kilometros recorridos.
 
 + El “CorrerCarrera” que recibe <strong>TIEMPO</strong>, realiza tantas iteraciones como cantidad de tiempo recibe por parámetros, en cada iteración todos los autos de esta carrera le suman un numero random de kilometros(entre 10 y 100) a sus kilometros recorridos.
@@ -190,7 +190,7 @@ Clase 5
 -------
 
 
-<h3 id="Ejer4">*Ejercicio para los alumnos:*</h3>
+<h3 id="Ejer4">*Ejercicio para los alumnos  #4:*</h3>
 
 + Realizar la implementación  de cada sobrecarga del método <stron>agregar(tiempo),agregar(kilometro)</strong> y agregar la cantidad correspondiente a cada atributo de la clase auto.
 
@@ -230,6 +230,6 @@ Clase 5
 </ol>
 
 
-<h3 id="Ejer5">*Ejercicio para los alumnos:*</h3>
+<h3 id="Ejer5">*Ejercicio para los alumnos #5:*</h3>
 
 + Realizar todos los cambios necesarios para que funcione la aplicación con la utilizacón de los operadores sobrecargados.
