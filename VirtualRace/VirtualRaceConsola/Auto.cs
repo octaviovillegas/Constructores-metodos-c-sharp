@@ -54,6 +54,19 @@ namespace VirtualRaceConsola
             Console.WriteLine("El fabricante es: " + this.Fabricante);
         }
 
+        public string retornarString()
+        { 
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Fabricante: "+this.Fabricante);
+            sb.AppendLine("Kilometros: " + this.KilometrosRecorridos);
+            sb.AppendLine("Tiempo: " + this.TiempoDemorado);
+
+
+
+            return sb.ToString();
+        
+        }
+
         public void VolverACero()
         {
            // this.kilometrosRecorridos;

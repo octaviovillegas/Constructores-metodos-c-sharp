@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VirtualRaceConsola.Auto" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAIAAwAAAABBAFAAAAAAAAAAAQAAAgACAAAIAAGBA=</HashCode>
+      <FileName>Auto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualRaceConsola.Carrera">
+    <Position X="6" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAQAAAAAAAAAAAAEAAAAAAACAAEAA=</HashCode>
+      <FileName>Carrera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualRaceConsola.Kilometro" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAAAAAAAAQAGAAgAAAgAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Kilometros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualRaceConsola.Program" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualRaceConsola.Rueda" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rueda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualRaceConsola.Tiempo" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAAAAAAAQAGAAgAAAgAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Tiempo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="VirtualRaceConsola.eFabricante" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgEAAAA=</HashCode>
+      <FileName>Efabricante.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

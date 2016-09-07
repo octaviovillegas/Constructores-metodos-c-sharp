@@ -34,6 +34,16 @@ namespace VirtualRaceConsola
             Tiempo tiempo = 5;
             Kilometro kilometro = 9;
 
+            for (int i = 0; i < 10; i++)
+            {
+                carrera = carrera + new Auto();
+               
+                
+            }
+
+           
+
+
             /*
             Console.WriteLine("{0} {1} {2} {3}",
                 nuevoAuto1.Fabricante,
@@ -47,9 +57,14 @@ namespace VirtualRaceConsola
 
             carrera.CorrerCarrera(tiempo);
 
+            Console.Write(carrera.MostrarCarrera());
+
+
             carrera.CorrerCarrera(kilometro);
+            Console.Write(carrera.MostrarCarrera());
 
             carrera.CorrerCarrera(tiempo);
+            Console.Write(carrera.MostrarCarrera());
 
             tiempo = tiempo + 10; // funciona porque esta sobrecargado el operador
 
