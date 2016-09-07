@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace VirtualRaceConsola
         public Auto auto5;
         public Auto auto6;
           */
-
+         public Array
         public List<Auto> ListaDeAutos;
 
         private static Random numeroRandom;
@@ -103,7 +104,7 @@ namespace VirtualRaceConsola
                         */
                    foreach (Auto item in this.ListaDeAutos)
                     {
-                        item.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                        item.Agregar((Kilometro)numeroRandom.Next(10, 100));
                     }
 
 
@@ -150,8 +151,8 @@ namespace VirtualRaceConsola
                 mayor = auto6;
              * */
 
-            Console.WriteLine("El que mÃ¡s recorriÃ³ fue un {0} y la distancia fue {1}", mayor.Fabricante, (int)mayor.ObtenerKilometros());
-            Console.WriteLine("El que menos recorriÃ³ fue un {0} y la distancia fue {1}", menor.Fabricante, (int)menor.ObtenerKilometros());
+            Console.WriteLine("El que más recorrió fue un {0} y la distancia fue {1}", mayor.Fabricante, (int)mayor.ObtenerKilometros());
+            Console.WriteLine("El que menos recorri´0 fue un {0} y la distancia fue {1}", menor.Fabricante, (int)menor.ObtenerKilometros());
 
 
 
@@ -269,12 +270,9 @@ namespace VirtualRaceConsola
          StringBuilder sb= new StringBuilder();
          sb.AppendLine("Carrera ");
 
-
-
             foreach (Auto auto in this.ListaDeAutos)
             {
                 sb.AppendLine(auto.retornarString());
-
                 //auto.MostrarAuto();
             }
 
