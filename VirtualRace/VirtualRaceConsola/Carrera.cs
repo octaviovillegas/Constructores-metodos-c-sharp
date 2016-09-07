@@ -15,11 +15,11 @@ namespace VirtualRaceConsola
         public Auto auto4;
         public Auto auto5;
         public Auto auto6;
-        private static Random random;
+        private static Random numeroRandom;
 
         static Carrera()
         {
-            random = new Random();
+            numeroRandom = new Random();
            
         }
 
@@ -91,12 +91,12 @@ namespace VirtualRaceConsola
 
             for (contadorMinutos = 0; contadorMinutos <  (int)tiempo; contadorMinutos++)
             {
-                this.auto1.Agregar((Tiempo)random.Next(10, 100));
-                this.auto2.Agregar((Tiempo)random.Next(10, 100));
-                this.auto3.Agregar((Tiempo)random.Next(10, 100));
-                this.auto4.Agregar((Tiempo)random.Next(10, 100));
-                this.auto5.Agregar((Tiempo)random.Next(10, 100));
-                this.auto6.Agregar((Tiempo)random.Next(10, 100));
+                this.auto1.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto2.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto3.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto4.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto5.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto6.Agregar((Tiempo)numeroRandom.Next(10, 100));
             }
             menor = mayor = auto1;
             if ((int)this.auto2.ObtenerKilometros() < (int)menor.ObtenerKilometros())
@@ -138,12 +138,12 @@ namespace VirtualRaceConsola
             Auto menor;
             for (contadorKilometros = 0; contadorKilometros < (int)kilometro; contadorKilometros++)
             {
-                this.auto1.Agregar((Tiempo)random.Next(10, 100));
-                this.auto2.Agregar((Tiempo)random.Next(10, 100));
-                this.auto3.Agregar((Tiempo)random.Next(10, 100));
-                this.auto4.Agregar((Tiempo)random.Next(10, 100));
-                this.auto5.Agregar((Tiempo)random.Next(10, 100));
-                this.auto6.Agregar((Tiempo)random.Next(10, 100));
+                this.auto1.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto2.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto3.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto4.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto5.Agregar((Tiempo)numeroRandom.Next(10, 100));
+                this.auto6.Agregar((Tiempo)numeroRandom.Next(10, 100));
             }
             menor = mayor = auto1;
             if (this.auto2.ObtenerTiempo() < menor.ObtenerTiempo())
@@ -198,7 +198,7 @@ namespace VirtualRaceConsola
             this.auto4 = new Auto();
             this.auto5 = new Auto();
             this.auto6 = new Auto();
-          random = new Random();
+          numeroRandom = new Random();
         }
 
     }
