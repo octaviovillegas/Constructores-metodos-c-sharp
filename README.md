@@ -248,7 +248,7 @@ Clase 9
 -------------------------------------------------------------------------------------
 
 
-<h6 id="ProyectosReferenciados"> <strong>H. </strong> proyectos referenciados .</h6>
+<h6 id="ProyectosReferenciados"> <strong>I. </strong> proyectos referenciados .</h6>
 
 <ol>
 
@@ -326,10 +326,10 @@ Clase 9
 	<strong>En las clase Auto  </strong>
 
 	<li>crear el método  <strong>retornarStringParaListado</strong> </li>
-		+ StringBuilder sb = new StringBuilder();
-        + sb.AppendLine("F:" + this.Fabricante +" - ");
-        + sb.AppendLine("P:" + this.NombrePiloto);   
-        + return sb.ToString();
++ StringBuilder sb = new StringBuilder();
++ sb.AppendLine("F:" + this.Fabricante +" - ");
++ sb.AppendLine("P:" + this.NombrePiloto);   
++ return sb.ToString();
 
 
 </ol>
