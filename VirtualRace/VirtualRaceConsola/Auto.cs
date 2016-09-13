@@ -9,7 +9,35 @@ namespace VirtualRaceConsola
     public class Auto
     {
         // composicion: tiene otras clases dentro, como Rueda.
-        public eFabricante Fabricante;
+      
+        private eFabricante _fabricante;
+
+        public eFabricante Fabricante
+        {
+            set
+            {
+                if (value == eFabricante.Ford)
+                {
+
+
+                }
+                else
+                { 
+                    this._fabricante = value; 
+                
+                }
+               
+            }
+            get
+            {
+
+                return this._fabricante;
+            }
+        }
+
+
+        public string NombrePiloto;
+       
         public Rueda DI;
         public Rueda DD;
         public Rueda TI;
@@ -18,6 +46,19 @@ namespace VirtualRaceConsola
         private Tiempo TiempoDemorado;
         public static int contadorDeObjetos;
         private static Random randomMarcas; // es unico para esta clase.
+
+
+
+
+        public string datosEnString
+        {
+            get {
+                return this.retornarStringParaListado();
+            }
+        
+        }
+
+
 
         public Auto()
         {
@@ -30,6 +71,11 @@ namespace VirtualRaceConsola
             this.TiempoDemorado =0;
 
             Auto.contadorDeObjetos++;
+        }
+        public Auto(string nombrePiloto,eFabricante fabricante):this()
+        {
+            this.NombrePiloto = nombrePiloto;
+            this.Fabricante = fabricante;
         }
 
         // un constructor estatico no puede ser public. Se ejecuta en la primer llamada a la clase que haga
@@ -65,6 +111,17 @@ namespace VirtualRaceConsola
 
             return sb.ToString();
         
+        }
+        public string retornarStringParaListado()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("F:" + this.Fabricante +" - ");
+            sb.AppendLine("P:" + this.NombrePiloto);     
+
+
+
+            return sb.ToString();
+
         }
 
         public void VolverACero()

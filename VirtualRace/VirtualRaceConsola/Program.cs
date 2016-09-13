@@ -24,7 +24,7 @@ namespace VirtualRaceConsola
             Rueda otraRueda2 = new Rueda("RuedaLoca");
             Rueda otraRueda3 = new Rueda("Firestone", 15);
 
-            Carrera carrera = new Carrera();
+            Carrera carrera = new Carrera("","","");
 
             Auto nuevoAuto1 = new Auto();
             Auto nuevoAuto2 = new Auto();

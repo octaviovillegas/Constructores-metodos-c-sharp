@@ -17,7 +17,9 @@ namespace VirtualRaceConsola
         public Auto auto5;
         public Auto auto6;
           */
-         public Array
+        public string nombre;
+        public string lugar;
+        public string fecha;
         public List<Auto> ListaDeAutos;
 
         private static Random numeroRandom;
@@ -292,8 +294,11 @@ namespace VirtualRaceConsola
 
         }
 
-        public Carrera()
+        public Carrera(string lugar, string fecha,string nombre)
         {
+            this.fecha = fecha;
+            this.nombre = nombre;
+            this.lugar = lugar;
             /* depreticated por colecciones
             this.auto1 = new Auto();
             this.auto2 = new Auto();

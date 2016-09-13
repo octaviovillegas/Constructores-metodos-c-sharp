@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="VirtualRaceConsola.Auto" Collapsed="true">
+  <Class Name="VirtualRaceConsola.Auto">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>KAAAIAAwAAAABBAFAAAAAAAAAAAQAAAgACAAAIAAGBA=</HashCode>
+      <HashCode>KQAAIQAwAAAABBAFAAAAAACAAAAQAAAgACQAAIAAGBA=</HashCode>
       <FileName>Auto.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VirtualRaceConsola.Carrera">
-    <Position X="6" Y="1.25" Width="3.25" />
+    <Position X="7.5" Y="1.25" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAQAAAAAAAAAAAAEAAAAAAACAAEAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAADAQAAAAABAAAAAAEAAAAAAACAAEAA=</HashCode>
       <FileName>Carrera.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualRaceConsola.Kilometro" Collapsed="true">
-    <Position X="4" Y="0.5" Width="1.5" />
+  <Class Name="VirtualRaceConsola.Kilometro">
+    <Position X="2.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAgAAAAAAAAAAAQAGAAgAAAgAAAAAAAAAAAAAAAiA=</HashCode>
       <FileName>Kilometros.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualRaceConsola.Program" Collapsed="true">
-    <Position X="0.5" Y="1.5" Width="1.5" />
+  <Class Name="VirtualRaceConsola.Program">
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualRaceConsola.Rueda" Collapsed="true">
-    <Position X="6" Y="0.5" Width="1.5" />
+  <Class Name="VirtualRaceConsola.Rueda">
+    <Position X="5.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Rueda.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualRaceConsola.Tiempo" Collapsed="true">
-    <Position X="4" Y="1.5" Width="1.5" />
+  <Class Name="VirtualRaceConsola.Tiempo">
+    <Position X="4" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAgAAAAAAAAQAGAAgAAAgAAAAAAAAAAAAAAAiA=</HashCode>
       <FileName>Tiempo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="VirtualRaceConsola.eFabricante" Collapsed="true">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+  <Enum Name="VirtualRaceConsola.eFabricante">
+    <Position X="5.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgEAAAA=</HashCode>
       <FileName>Efabricante.cs</FileName>

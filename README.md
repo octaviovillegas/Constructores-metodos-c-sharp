@@ -236,3 +236,100 @@ Clase 5
 + Realizar todos los cambios necesarios para que funcione la aplicación con la utilizacón de los operadores sobrecargados.
 + Hacer una carrera por tiempo.
 + Hacer una carrera por kilometros
+
+
+
+Clase 9
+-------
+
+
+-------------------------------------------------------------------------------------
+<h5>Uso de proyectos referenciados y utilizacion de DLL</h5>
+-------------------------------------------------------------------------------------
+
+
+<h6 id="ProyectosReferenciados"> <strong>H. </strong> proyectos referenciados .</h6>
+
+<ol>
+
+	<li>en nuestra solución crear un nuevo proyecto de tipo <strong>Windows Form</strong> 
+		
+	</li>
+	<li>cambiar el nombre del Form1 a  <strong>frmPrincipal</strong> 
+		
+	</li>
+	<li>referenciar el proyecto que tiene nuestras clases(carrera, auto, rueda,...)</li>
+
+	<strong>En las clases</strong>
+<li>paulatinamente y a medida que utilicemos los métodos, comentaremos todas las utilizaciones de la clase <strong>Console</strong> 
+	</li>
+	<li>Agragar los siguientes atributos a la clase  <strong>CARRERA</strong> :
+		<ul>
+			<li>lugar</li>
+			<li>fecha</li>
+			<li>nombre</li>		
+		</ul>
+		<strong>todos string</strong>
+	</li>
+	<li>modificar el constructor por defecto de la clase carrera , para que tome 3 parametros</li>
+	<li>Agragar el siguiente atributo a la clase  <strong>AUTO</strong> :
+		<ul>
+			<li>NombrePiloto</li>
+			
+		</ul>
+		<strong>string</strong>
+	</li>
+	<strong>En el Form</strong>
+
+	<li>En el formulario agragar <strong>GroupBox</strong>para cada uno de los siguientes items
+		<ul>
+			<li>Carrera</li>
+			<li>Auto</li>
+			<li>Resultado</li>
+			<li>Listado de autos</li>
+			
+		</ul>
+	</li>
+
+
+</ol>
+
+<h3 id="Ejer6">*Ejercicio para los alumnos #6:*</h3>
+
++ En el groupBox carrera , crear los (3) cuadros de textos para cada atributo 
++ En el groupBox carrera , crear el boton para crear la carrera.
++ Al crear la carrera deshabilitar el  <strong>GroupBox</strong> carrera y habilitar el <strong>auto</strong>
++ En el groupBox auto , crear el cuadro de textos para nombre de piloto 
++ En el groupBox auto , crear el boton para crear el auto.
++ En el groupBox auto , crear un combobox para los fabricantes.
+
+
+
+<ol>
+
+	<li>en el constructor del   <strong>frmPrincipal</strong> :
+		<ul>
+				<li>cargamos el  <strong>ComboBox</strong>  con los fabricantes del enumerado	</li>
+				<li>lo hacemos dee solo lectura  <strong> cmbFabricantes.DropDownStyle = ComboBoxStyle.DropDownList</strong></li>
+            	<li> y que predeterminadamente este seleccionado el primero<strong> cmbFabricantes.SelectedIndex=1</strong></li> 
+		</ul>
+	</li>
+	<li>En el <strong>GroupBox</strong>  Listado de autos , poner un <strong>ListBox</strong> llamado lsbAutos</li>
+	<li>realizamos el método  <strong>cargarListado en el frmPrincipal</strong>:
+		<ul>
+					<li>que borrer el contenido del <strong>lsbAutos</strong></li>
+					<li>que cargue los autos cargados en mi objeto carrera y los muestre en el <strong>lsbAutos</strong></li>
+					
+					
+				</ul>
+	 </li>
+	<strong>En las clase Auto  </strong>
+
+	<li>crear el método  <strong>retornarStringParaListado</strong> </li>
+		+ StringBuilder sb = new StringBuilder();
+        + sb.AppendLine("F:" + this.Fabricante +" - ");
+        + sb.AppendLine("P:" + this.NombrePiloto);   
+        + return sb.ToString();
+
+
+</ol>
