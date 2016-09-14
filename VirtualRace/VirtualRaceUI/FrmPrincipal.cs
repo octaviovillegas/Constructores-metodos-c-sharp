@@ -29,8 +29,13 @@ namespace VirtualRaceUI
 
             this.cmbTipoCarrera.Items.Add("Por Tiempo");
             this.cmbTipoCarrera.Items.Add("Por Kilometros");
-            cmbTipoCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbTipoCarrera.SelectedIndex = 1;
+            this.cmbTipoCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.cmbTipoCarrera.SelectedIndex = 1;
+
+            this.cmbCriterio.Items.Add("Fabricante");
+            this.cmbCriterio.Items.Add("Piloto");
+            this.cmbCriterio.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.cmbCriterio.SelectedIndex = 1;
 
             //datos para testing
             this.txtfecha.Text = "29/7/2016";
@@ -38,7 +43,7 @@ namespace VirtualRaceUI
             this.txtNombre.Text = "avellaneda";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCrearCarrera_Click(object sender, EventArgs e)
         {
             this.miCarrera = new Carrera(this.txtLugar.Text,this.txtfecha.Text,this.txtNombre.Text);
             this.gpbCarrera.Enabled = false;
@@ -61,7 +66,14 @@ namespace VirtualRaceUI
 	            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+      
+
+        private void btnCorrerCarrera_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
         {
 
         }

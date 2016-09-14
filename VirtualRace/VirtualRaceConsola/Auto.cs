@@ -168,5 +168,33 @@ namespace VirtualRaceConsola
         {
             this.KilometrosRecorridos = this.KilometrosRecorridos + kilometro;
         }
+
+
+
+
+        #region ordenamiento
+
+        public static int ordenarPorPilotoDesc(Auto auto1, Auto auto2)
+        {
+            return auto1.NombrePiloto.CompareTo(auto2.NombrePiloto);
+        
+        }
+        public static int ordenarPorPilotoAsc(Auto auto1, Auto auto2)
+        {
+            return auto2.NombrePiloto.CompareTo(auto1.NombrePiloto);
+
+        }
+        public static int ordenarPorFabricanteDesc(Auto auto1, Auto auto2)
+        {
+            return auto1._fabricante.CompareTo(auto2._fabricante);
+
+        }
+        public static int ordenarPorFabricanteAsc(Auto auto1, Auto auto2)
+        {
+            return auto2._fabricante.CompareTo(auto1._fabricante);
+
+        }
+
+        #endregion
     }
 }

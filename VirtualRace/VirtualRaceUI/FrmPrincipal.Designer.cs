@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCrearCarrera = new System.Windows.Forms.Button();
             this.gpbCarrera = new System.Windows.Forms.GroupBox();
             this.lblLugar = new System.Windows.Forms.Label();
             this.txtLugar = new System.Windows.Forms.TextBox();
@@ -43,29 +43,35 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombrePiloto = new System.Windows.Forms.TextBox();
             this.gpbResultado = new System.Windows.Forms.GroupBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbTipoCarrera = new System.Windows.Forms.ComboBox();
             this.btnCorrerCarrera = new System.Windows.Forms.Button();
             this.gpbListado = new System.Windows.Forms.GroupBox();
             this.lsbAutos = new System.Windows.Forms.ListBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbCriterio = new System.Windows.Forms.ComboBox();
+            this.rdbAscendente = new System.Windows.Forms.RadioButton();
+            this.rdbDescendente = new System.Windows.Forms.RadioButton();
+            this.btnOrdenar = new System.Windows.Forms.Button();
             this.gpbCarrera.SuspendLayout();
             this.gpbAuto.SuspendLayout();
             this.gpbResultado.SuspendLayout();
-            this.gpbListado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.gpbListado.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCrearCarrera
             // 
-            this.button1.Location = new System.Drawing.Point(411, 46);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Crear Carrera";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCrearCarrera.Location = new System.Drawing.Point(411, 46);
+            this.btnCrearCarrera.Name = "btnCrearCarrera";
+            this.btnCrearCarrera.Size = new System.Drawing.Size(70, 23);
+            this.btnCrearCarrera.TabIndex = 0;
+            this.btnCrearCarrera.Text = "Crear Carrera";
+            this.btnCrearCarrera.UseVisualStyleBackColor = true;
+            this.btnCrearCarrera.Click += new System.EventHandler(this.btnCrearCarrera_Click);
             // 
             // gpbCarrera
             // 
@@ -75,7 +81,7 @@
             this.gpbCarrera.Controls.Add(this.txtfecha);
             this.gpbCarrera.Controls.Add(this.lblNombre);
             this.gpbCarrera.Controls.Add(this.txtNombre);
-            this.gpbCarrera.Controls.Add(this.button1);
+            this.gpbCarrera.Controls.Add(this.btnCrearCarrera);
             this.gpbCarrera.Location = new System.Drawing.Point(22, 13);
             this.gpbCarrera.Name = "gpbCarrera";
             this.gpbCarrera.Size = new System.Drawing.Size(487, 77);
@@ -180,7 +186,6 @@
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "Nombre del piloto:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtNombrePiloto
             // 
@@ -202,6 +207,28 @@
             this.gpbResultado.TabIndex = 3;
             this.gpbResultado.TabStop = false;
             this.gpbResultado.Text = "Resultado";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(14, 24);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.TabIndex = 15;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // textBox1
             // 
@@ -236,6 +263,7 @@
             this.btnCorrerCarrera.TabIndex = 12;
             this.btnCorrerCarrera.Text = "Correr";
             this.btnCorrerCarrera.UseVisualStyleBackColor = true;
+            this.btnCorrerCarrera.Click += new System.EventHandler(this.btnCorrerCarrera_Click);
             // 
             // gpbListado
             // 
@@ -255,54 +283,88 @@
             this.lsbAutos.Size = new System.Drawing.Size(181, 316);
             this.lsbAutos.TabIndex = 0;
             // 
-            // numericUpDown1
+            // groupBox1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(14, 24);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 15;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
+            this.groupBox1.Controls.Add(this.btnOrdenar);
+            this.groupBox1.Controls.Add(this.rdbDescendente);
+            this.groupBox1.Controls.Add(this.rdbAscendente);
+            this.groupBox1.Controls.Add(this.cmbCriterio);
+            this.groupBox1.Location = new System.Drawing.Point(22, 458);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(481, 57);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Ordenamiento";
+            // 
+            // cmbCriterio
+            // 
+            this.cmbCriterio.FormattingEnabled = true;
+            this.cmbCriterio.Location = new System.Drawing.Point(13, 19);
+            this.cmbCriterio.Name = "cmbCriterio";
+            this.cmbCriterio.Size = new System.Drawing.Size(121, 21);
+            this.cmbCriterio.TabIndex = 0;
+            // 
+            // rdbAscendente
+            // 
+            this.rdbAscendente.AutoSize = true;
+            this.rdbAscendente.Location = new System.Drawing.Point(161, 23);
+            this.rdbAscendente.Name = "rdbAscendente";
+            this.rdbAscendente.Size = new System.Drawing.Size(82, 17);
+            this.rdbAscendente.TabIndex = 1;
+            this.rdbAscendente.TabStop = true;
+            this.rdbAscendente.Text = "Ascendente";
+            this.rdbAscendente.UseVisualStyleBackColor = true;
+            // 
+            // rdbDescendente
+            // 
+            this.rdbDescendente.AutoSize = true;
+            this.rdbDescendente.Location = new System.Drawing.Point(252, 23);
+            this.rdbDescendente.Name = "rdbDescendente";
+            this.rdbDescendente.Size = new System.Drawing.Size(89, 17);
+            this.rdbDescendente.TabIndex = 2;
+            this.rdbDescendente.TabStop = true;
+            this.rdbDescendente.Text = "Descendente";
+            this.rdbDescendente.UseVisualStyleBackColor = true;
+            // 
+            // btnOrdenar
+            // 
+            this.btnOrdenar.Location = new System.Drawing.Point(344, 20);
+            this.btnOrdenar.Name = "btnOrdenar";
+            this.btnOrdenar.Size = new System.Drawing.Size(123, 23);
+            this.btnOrdenar.TabIndex = 3;
+            this.btnOrdenar.Text = "Ordenar";
+            this.btnOrdenar.UseVisualStyleBackColor = true;
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 482);
+            this.ClientSize = new System.Drawing.Size(534, 546);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gpbListado);
             this.Controls.Add(this.gpbResultado);
             this.Controls.Add(this.gpbAuto);
             this.Controls.Add(this.gpbCarrera);
             this.Name = "FrmPrincipal";
             this.Text = "VRace 1.0.1";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.gpbCarrera.ResumeLayout(false);
             this.gpbCarrera.PerformLayout();
             this.gpbAuto.ResumeLayout(false);
             this.gpbAuto.PerformLayout();
             this.gpbResultado.ResumeLayout(false);
             this.gpbResultado.PerformLayout();
-            this.gpbListado.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.gpbListado.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCrearCarrera;
         private System.Windows.Forms.GroupBox gpbCarrera;
         private System.Windows.Forms.Label lblLugar;
         private System.Windows.Forms.TextBox txtLugar;
@@ -324,6 +386,11 @@
         private System.Windows.Forms.ComboBox cmbTipoCarrera;
         private System.Windows.Forms.Button btnCorrerCarrera;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnOrdenar;
+        private System.Windows.Forms.RadioButton rdbDescendente;
+        private System.Windows.Forms.RadioButton rdbAscendente;
+        private System.Windows.Forms.ComboBox cmbCriterio;
     }
 }
 

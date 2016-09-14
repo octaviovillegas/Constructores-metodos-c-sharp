@@ -244,7 +244,8 @@ Clase 9
 
 
 -------------------------------------------------------------------------------------
-<h5>Uso de proyectos referenciados y utilizacion de DLL</h5>
+<h5>Uso de proyectos referenciados </h5>
+<h5>Propiedades y encapsulamiento</h5>
 -------------------------------------------------------------------------------------
 
 
@@ -326,10 +327,57 @@ Clase 9
 	<strong>En las clase Auto  </strong>
 
 	<li>crear el método  <strong>retornarStringParaListado</strong> </li>
-+ StringBuilder sb = new StringBuilder();
-+ sb.AppendLine("F:" + this.Fabricante +" - ");
-+ sb.AppendLine("P:" + this.NombrePiloto);   
-+ return sb.ToString();
+<p>StringBuilder sb = new StringBuilder();</p> 
+<p>sb.AppendLine("F:" + this.Fabricante +" - ");</p> 
+<p>sb.AppendLine("P:" + this.NombrePiloto);   </p> sb.AppendLine("P:" + this.NombrePiloto);   
+<p>return sb.ToString();</p> 
 
 
 </ol>
+
+
+Clase 10
+-------
+
+
+
+
+-------------------------------------------------------------------------------------
+<h5>Ordenamiernto ,método Sort, </h5>
+-------------------------------------------------------------------------------------
+
+
+<h6 id="Ordenamiento"> <strong>I. </strong> Ordenamiernto ,método Sort .</h6>
+
+
+<li>En el formulario principal colocar un <strong>Button</strong>  que diga Ordenar</li>
+<li>en la clase <strong>AUTO</strong> Creamos un método llamado "ordenarPorFabricante" que:
+
+				<ul>
+					<li>que sea <strong>de clase</strong></li>
+					<li>que reciba dos objetos de la clase <strong>AUTO</strong></li>
+					<li>que retorne un <strong>INT</strong></li>
+					
+				</ul>
+
+
+</li>
+	
+<li>En el  <strong>Button</strong>  que dice Ordenar se debe:
+
+	<ul>
+					<li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
+					<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li>			
+					
+	</ul>
+	
+<li>cambiar la lineas dónde se llama al ".sort(auto.ordenarPorFabricante)" </li>
+
+
+<h3 id="EjerOrdenamiernto">*Ejercicio para los alumnos Ordenamiento:*</h3>
+
++ Crear en el la clase AUTO los métodos para ordenar por fabricante y piloto. 
++ En el formulario  agregar un <strong>GroupBox</strong> para los criterios de ordenamiento.
++ Tendrá un <strong>ComboBox</strong> cargado con los atributos que utilizaremos de <strong>AUTO</strong>
++ Tendrá dos <strong>RadioButton</strong> para seleccionar si es ascendente o descendente
++ Tendrá Un <strong>Button</strong> que ordenará el listado de autos y actualizara el <strong>ListBox</strong>
