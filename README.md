@@ -15,6 +15,7 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
   - Ejercitación: [Ejercicio 1](#Ejer1)
 
 <h4>Clase 4</h4>
+
  - [Primeras sobrecargas de constructores.](#PrimerasSobrecargas)
  - [Reutilización de código de constructores  utilización del ":THIS()".](#rellamadasTHIS)
  - Ejercitación: [Ejercicio 2](#Ejer2)
@@ -22,6 +23,7 @@ Prof. Octavio villegas  http://www.octavio.com.ar.
  - Ejercitación: [Ejercicio 3](#Ejer3)
  
 <h4>Clase 5</h4>
+
  - Ejercitación -repaso-: [Ejercicio 4](#Ejer4)
  - [Sobrecarga de operadores.](#SobrecargasDeOperadores)
  - Ejercitación: [Ejercicio 5](#Ejer5)
