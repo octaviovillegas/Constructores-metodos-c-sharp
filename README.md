@@ -334,21 +334,14 @@ Clase 10
 <li>En el formulario principal colocar un <strong>Button</strong>  que diga Ordenar</li>
 <li>en la clase <strong>AUTO</strong> Creamos un método llamado "ordenarPorFabricante" que:
 
-				<ul>
-					<li>que sea <strong>de clase</strong></li>
+				<ul><li>que sea <strong>de clase</strong></li>
 					<li>que reciba dos objetos de la clase <strong>AUTO</strong></li>
 					<li>que retorne un <strong>INT</strong></li>
-				</ul>
-
-
-</li>	
+				</ul></li>	
 <li>En el  <strong>Button</strong>  que dice Ordenar se debe:
 
-	<ul>
-	<li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
-					<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li>			
-					
-	</ul>
+	<ul><li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
+					<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li></ul>
 	
 <li>cambiar la lineas dónde se llama al ".sort(auto.ordenarPorFabricante)" </li>
 
