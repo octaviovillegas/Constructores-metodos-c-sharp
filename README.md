@@ -248,14 +248,10 @@ Clase 9
 <h6 id="ProyectosReferenciados"> <strong>I. </strong> proyectos referenciados .</h6>
 
 <ol>
-	<li>en nuestra solución crear un nuevo proyecto de tipo <strong>Windows Form</strong> 
-		
-	</li>
-	<li>cambiar el nombre del Form1 a  <strong>frmPrincipal</strong> 
-		
-	</li>
+	<li>en nuestra solución crear un nuevo proyecto de tipo <strong>Windows Form</strong> </li>
+	<li>cambiar el nombre del Form1 a  <strong>frmPrincipal</strong></li>
 	<li>referenciar el proyecto que tiene nuestras clases(carrera, auto, rueda,...)</li>
-
+</ol>
 	<strong>En las clases</strong>
 <li>paulatinamente y a medida que utilicemos los métodos, comentaremos todas las utilizaciones de la clase <strong>Console</strong> 
 	</li>
