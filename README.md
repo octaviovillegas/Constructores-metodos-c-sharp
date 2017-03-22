@@ -131,7 +131,6 @@ Clase 4
 <h6 id="PrimerasSobrecargas"> <strong>G. </strong> Primeras sobrecargas de constructores.</h6>
 
 <ol>
-
 	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un string “marca”.</li>
 	<li>Utilizarlo en el MAIN, verificar que al abrir el paréntesis se ve las dos formar de usarlo.</li>
 	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un int “tamaño”.</li>
@@ -148,7 +147,6 @@ Clase 4
 <h6 id:"rellamadasTHIS"> <strong>H. </strong> Reutilización de código de constructores ":THIS()".</h6>
 
 <ol>
-
 	<li>En la clase <strong>RUEDA</strong> creamos un nuevo constructor que reciba por parámetro un string “marca” y un int tamaño.</li>
 	<li>Verificar que tanto en la sobrecarga que recibe un string y en la que recibe dos parámetros, el atributo marca es inicializado, pero en la que solo recibe int, el atributo marca está en NULL.</li>
 	<li>Utilizar el this para llamar desde el constructor que recibe un int al constructor por defecto para inicializar el atributo marca en “sin marca”.</li>
