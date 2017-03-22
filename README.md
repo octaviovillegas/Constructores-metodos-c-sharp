@@ -165,7 +165,6 @@ Clase 4
 <h6 id="SobreCargaMetodos"> <strong>I. </strong> Sobrecarga de métodos.</h6>
 
 <ol>
-
 	<li>Crear la clase <strong>TIEMPO</strong> y la clase <strong>KILOMETRO</strong>, cada una con un único atributo de tipo INT llamado “cantidad”.</li>
 	<li>Cada uno  debe tener un único constructor que reciba por parámetro la cantidad.</li>
 	<li>Ahora en la clase <strong>CARRERA</strong> crear el método “CorrerCarrera” con dos sobrecargas, una que reciba kilómetros y una que reciba tiempo.</li>
@@ -205,7 +204,6 @@ Clase 5
 <h6 id="SobrecargasDeOperadores"> <strong>H. </strong> Sobrecarga de Operadores.</h6>
 
 <ol>
-
 	<li>Hacer la sobrecarga de los operadores para la clase  <strong>KILOMETRO</strong> y <strong>TIEMPO</strong>
 		<ul>
 			<li>operator +</li>
