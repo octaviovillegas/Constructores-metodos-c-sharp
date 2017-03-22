@@ -296,18 +296,15 @@ Clase 9
 		<ul>
 			<li>cargamos el  <strong>ComboBox</strong>  con los fabricantes del enumerado	</li>
 			<li>lo hacemos dee solo lectura  <strong> cmbFabricantes.DropDownStyle = ComboBoxStyle.DropDownList</strong></li>
-            	<li> y que predeterminadamente este seleccionado el primero<strong> cmbFabricantes.SelectedIndex=1</strong></li> 
-		</ul>
-	</li>
+			<li> y que predeterminadamente este seleccionado el primero<strong> cmbFabricantes.SelectedIndex=1</strong></li> </ul>
+			</li>
 	<li>En el <strong>GroupBox</strong>  Listado de autos , poner un <strong>ListBox</strong> llamado lsbAutos</li>
 	<li>realizamos el método  <strong>cargarListado en el frmPrincipal</strong>:
 		<ul>
 					<li>que borrer el contenido del <strong>lsbAutos</strong></li>
 					<li>que cargue los autos cargados en mi objeto carrera y los muestre en el <strong>lsbAutos</strong></li>
-					
-					
-				</ul>
-	 </li>
+		</ul>
+		</li>
 	<strong>En las clase Auto  </strong>
 
 	<li>crear el método  <strong>retornarStringParaListado</strong> </li>
@@ -341,16 +338,14 @@ Clase 10
 					<li>que sea <strong>de clase</strong></li>
 					<li>que reciba dos objetos de la clase <strong>AUTO</strong></li>
 					<li>que retorne un <strong>INT</strong></li>
-					
 				</ul>
 
 
-</li>
-	
+</li>	
 <li>En el  <strong>Button</strong>  que dice Ordenar se debe:
 
 	<ul>
-					<li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
+	<li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
 					<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li>			
 					
 	</ul>
