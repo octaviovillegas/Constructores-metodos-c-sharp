@@ -306,8 +306,7 @@ Clase 9
 		</ul>
 		</li>
 	<strong>En las clase Auto  </strong>
-
-	<li>crear el método  <strong>retornarStringParaListado</strong> </li>
+<ul><li>crear el método  <strong>retornarStringParaListado</strong> </li></ul>
 <p>StringBuilder sb = new StringBuilder();</p> 
 <p>sb.AppendLine("F:" + this.Fabricante +" - ");</p> 
 <p>sb.AppendLine("P:" + this.NombrePiloto);   </p> sb.AppendLine("P:" + this.NombrePiloto);   
@@ -338,9 +337,10 @@ Clase 10
 					<li>que retorne un <strong>INT</strong></li>
 				</ul></li>	
 <li>En el  <strong>Button</strong>  que dice Ordenar se debe:
-
-	<ul><li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
-					<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li></ul>
+<ul>
+<li>llamar al método ".sort()" <strong>sin parametros</strong> del listado de autos </li>
+<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li>
+</ul>
 	
 <li>cambiar la lineas dónde se llama al ".sort(auto.ordenarPorFabricante)" </li>
 </ol>
