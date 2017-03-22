@@ -42,14 +42,12 @@ Clase 3
 -------------------------------------------------------------------------------------
 <h6 id="inicializacionDelObjeto"> <strong>A. </strong> inicialización del objeto</h6>
 <ol>
-
-    	<li>Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
+	<li>Crear la clase publica Rueda, con un atributo de tipo  String llamado marca y el atributo de tipo int tamaño.</li>
 	<li>Crear un objeto en el MAIN , inspeccionar los atributos y verificar que el string está en null y el tamaño en 0.</li>
 </ol>
 
 <h6 id="valoresPorDefecto"> <strong>B.</strong> Modificación de valores por defecto.</h6>
 <ol>
-
     	<li>Crear un constructor por defecto sin código en su implementación.</li>
 	<li>Verificar ejecutando paso a paso que ingresa al constructor.</li>
 	<li>Modificar el atributo “This. Marca”  dentro del constructor por defecto con el texto “Sin Marca”.</li>
