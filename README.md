@@ -263,15 +263,14 @@ Clase 9
 		<ul>
 			<li>lugar</li>
 			<li>fecha</li>
-			<li>nombre</li>		
+			<li>nombre</li>	
 		</ul>
 		<strong>todos string</strong>
 	</li>
 	<li>modificar el constructor por defecto de la clase carrera , para que tome 3 parametros</li>
 	<li>Agragar el siguiente atributo a la clase  <strong>AUTO</strong> :
 		<ul>
-			<li>NombrePiloto</li>
-			
+			<li>NombrePiloto</li>		
 		</ul>
 		<strong>string</strong>
 	</li>
@@ -282,8 +281,7 @@ Clase 9
 			<li>Carrera</li>
 			<li>Auto</li>
 			<li>Resultado</li>
-			<li>Listado de autos</li>
-			
+			<li>Listado de autos</li>			
 		</ul>
 	</li>
 
