@@ -218,11 +218,10 @@ Clase 5
 	<li>
 	Hacer la sobrecarga de los operadores para la clase  <strong>KILOMETRO</strong> y <strong>TIEMPO</strong>
 		<ul>
-			<li>operator < (menor que)</li>
+			<li>operator < (menor que) </li>
 			<li>operator > (mayor que)</li>
-			
-		</ul>
-	</li>
+			</ul>
+			</li>
 
 </ol>
 
