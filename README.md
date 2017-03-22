@@ -268,7 +268,7 @@ Clase 9
 			<li>NombrePiloto <strong>string</strong></li>		
 		</ul>
 		
-	</li>
+	
 	<strong>En el Form</strong>
 <ol>
 	<li>En el formulario agragar <strong>GroupBox</strong>para cada uno de los siguientes items
@@ -297,8 +297,8 @@ Clase 9
 <ol>
 	<li>en el constructor del   <strong>frmPrincipal</strong> :
 		<ul>
-				<li>cargamos el  <strong>ComboBox</strong>  con los fabricantes del enumerado	</li>
-				<li>lo hacemos dee solo lectura  <strong> cmbFabricantes.DropDownStyle = ComboBoxStyle.DropDownList</strong></li>
+			<li>cargamos el  <strong>ComboBox</strong>  con los fabricantes del enumerado	</li>
+			<li>lo hacemos dee solo lectura  <strong> cmbFabricantes.DropDownStyle = ComboBoxStyle.DropDownList</strong></li>
             	<li> y que predeterminadamente este seleccionado el primero<strong> cmbFabricantes.SelectedIndex=1</strong></li> 
 		</ul>
 	</li>
