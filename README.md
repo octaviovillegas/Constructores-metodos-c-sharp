@@ -255,23 +255,22 @@ Clase 9
 	<strong>En las clases</strong>
 <li>paulatinamente y a medida que utilicemos los métodos, comentaremos todas las utilizaciones de la clase <strong>Console</strong> 
 	</li>
-	<li>Agragar los siguientes atributos a la clase  <strong>CARRERA</strong> :
+	<li>Agragar los siguientes atributos a la clase  <strong>CARRERA</strong> <strong>todos string</strong>:
 		<ul>
 			<li>lugar</li>
 			<li>fecha</li>
 			<li>nombre</li>	
-		</ul>
-		<strong>todos string</strong>
+		</ul>		
 	</li>
 	<li>modificar el constructor por defecto de la clase carrera , para que tome 3 parametros</li>
 	<li>Agragar el siguiente atributo a la clase  <strong>AUTO</strong> :
 		<ul>
-			<li>NombrePiloto</li>		
+			<li>NombrePiloto <strong>string</strong></li>		
 		</ul>
-		<strong>string</strong>
+		
 	</li>
 	<strong>En el Form</strong>
-
+<ol>
 	<li>En el formulario agragar <strong>GroupBox</strong>para cada uno de los siguientes items
 		<ul>
 			<li>Carrera</li>
