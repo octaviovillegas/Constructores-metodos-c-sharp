@@ -248,7 +248,6 @@ Clase 9
 <h6 id="ProyectosReferenciados"> <strong>I. </strong> proyectos referenciados .</h6>
 
 <ol>
-
 	<li>en nuestra solución crear un nuevo proyecto de tipo <strong>Windows Form</strong> 
 		
 	</li>
@@ -303,7 +302,6 @@ Clase 9
 
 
 <ol>
-
 	<li>en el constructor del   <strong>frmPrincipal</strong> :
 		<ul>
 				<li>cargamos el  <strong>ComboBox</strong>  con los fabricantes del enumerado	</li>
