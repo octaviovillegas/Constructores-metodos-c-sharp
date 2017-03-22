@@ -330,10 +330,9 @@ Clase 10
 
 <h6 id="Ordenamiento"> <strong>I. </strong> Ordenamiernto ,método Sort .</h6>
 
-
+<ol>
 <li>En el formulario principal colocar un <strong>Button</strong>  que diga Ordenar</li>
 <li>en la clase <strong>AUTO</strong> Creamos un método llamado "ordenarPorFabricante" que:
-
 				<ul><li>que sea <strong>de clase</strong></li>
 					<li>que reciba dos objetos de la clase <strong>AUTO</strong></li>
 					<li>que retorne un <strong>INT</strong></li>
@@ -344,7 +343,7 @@ Clase 10
 					<li>recargar el <strong>ListBox</strong>  nuevamente con la lista ordenada</li></ul>
 	
 <li>cambiar la lineas dónde se llama al ".sort(auto.ordenarPorFabricante)" </li>
-
+</ol>
 
 <h3 id="EjerOrdenamiernto">*Ejercicio para los alumnos Ordenamiento:*</h3>
 
