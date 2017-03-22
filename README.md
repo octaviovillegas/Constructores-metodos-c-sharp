@@ -267,9 +267,7 @@ Clase 9
 		<ul>
 			<li>NombrePiloto <strong>string</strong></li>		
 		</ul>
-		
-	
-	<strong>En el Form</strong>
+<strong>En el Form</strong>
 <ol>
 	<li>En el formulario agragar <strong>GroupBox</strong>para cada uno de los siguientes items
 		<ul>
